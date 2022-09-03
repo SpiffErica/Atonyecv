@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset = "utf-8">
+        <title>Contact Me</title>
+    </head>
+
+    <body>
+        <p>You can reach me on the following social media platforms</p>
+        <ul>
+            <ol>
+                <li>LinkedIn</li>
+                <li>Instagram</li>
+            </ol>
+        </ul>
+
+        <hr>
+
+        <form action="mailto:tonye.rik26@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name" required> <br>
+            <label for="email">Your Email:</label>
+            <input type="email" name="email" id="email" required> <br>
+            <label for="password">Password:</label>
+            <input type="password" name="passoword" id="password" required> <br>
+
+            <label for="fieldchoice">Interested Field:</label>
+
+            <select name="interestedfield" id="interestedfield">
+                <option value="coding">Coding</option>
+                <option value="reading">Novel Reading</option>
+                <option value="music">Music</option>
+            </select> <br>
+            <label for="yourMessage">YourMessage:</label>
+            <br>
+            <textarea name="yourMessage" rows="10" cols="30"></textarea>
+            <br>
+            <input type="reset" name="reset">
+            <input type="submit" name="submit">
+        </form>
+    </body>
+</html>
